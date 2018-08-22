@@ -1,0 +1,26 @@
+{
+  "name": "context-api-loading",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
+    "react-spinkit": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prepublish": "babel src/ -d lib/",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^5.4.0",
+    "eslint-config-google": "^0.9.1",
+    "flow-bin": "^0.79.1"
+  }
+}
